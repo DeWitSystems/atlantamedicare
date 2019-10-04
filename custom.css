@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-okt-2019, 7:52:24
+    Author     : Ronnie de Wit
+*/
+
+/* Custom Style WordPress */
+
+.site-header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.site-branding {
+    width: 40%;
+    float: left;
+}
+
+.site-clock {
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+}
+
+.site-clock .site-clock-icon {
+    width: 20%;
+    float: left;
+}
+
+.site-clock .site-clock-content {
+    width: 80%;
+    float: left;
+}
+
+.site-clock .site-clock-content p {
+    margin: 0;
+    font-size: 14px;
+}
