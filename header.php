@@ -26,6 +26,8 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/atlantamedicare-logo.jpg" title="<?php bloginfo( 'name' ); ?>" alt="<?php echo get_bloginfo( 'description' , 'display' );; ?>">
+                    
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -52,7 +54,24 @@
                         <p><?php echo "Saturday and Sunday - CLOSED"; ?></p>
                     </div>
                 </div><!-- .site-clock -->
-
+                <div class="site-tel">
+                    <div class="site-tel-icon">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/icon-tel.png">
+                    </div>
+                    <div class="site-tel-content">
+                        <p><?php echo "(+66) 02 042 1140" ;?></p>
+                        <p><?php echo "office@atlantamedicare.co.th" ;?></p>
+                     </div>
+                </div><!-- .site-tel -->
+                 <div class="site-location">
+                    <div class="site-location-icon">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/icon-location.png">
+                    </div>
+                    <div class="site-location-content">
+                        <p><?php echo "250 ladphroad" ;?></p>
+                        <p><?php echo "Bangkok Thailand" ;?></p>
+                     </div>
+                </div>
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'atlantamedicare' ); ?></button>
 			<?php
