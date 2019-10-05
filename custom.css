@@ -83,3 +83,35 @@ and open the template in the editor.
     margin: 0;
     font-size: 14px;
 }
+
+.menu-toggle {
+    width: 60%;
+    height: 35px;
+    padding: 5px 5px;
+}
+
+@media screen and (min-width: 37.5em){
+    .site-header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.border-menu {
+    border-bottom: 1px solid #ccc;
+    padding: 2px 0px;
+}
+
+.main-navigation li {
+    padding: 5px 10px;
+}
+
+.site-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.site-content .content-area {
+    width: 70%;
+    float: left;
+    
+}

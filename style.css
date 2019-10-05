@@ -684,8 +684,10 @@ a:hover, a:active {
 }
 
 .main-navigation a {
+      color: #323232;
 	display: block;
 	text-decoration: none;
+      
 }
 
 /* Small menu. */
