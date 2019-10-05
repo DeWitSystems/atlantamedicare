@@ -10,6 +10,7 @@ and open the template in the editor.
 
 /* Custom Style WordPress */
 
+/* Header Logo Brand */
 .site-header {
     width: 1200px;
     margin: 0 auto;
@@ -20,6 +21,7 @@ and open the template in the editor.
     float: left;
 }
 
+/* Header Contact */
 .site-clock {
     width: 20%;
     float: left;
@@ -37,6 +39,47 @@ and open the template in the editor.
 }
 
 .site-clock .site-clock-content p {
+    margin: 0;
+    font-size: 14px;
+}
+.site-tel {
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+}
+
+.site-tel .site-tel-icon {
+    width: 20%;
+    float: left;
+}
+
+.site-tel .site-tel-content {
+    width: 80%;
+    float: left;
+}
+
+.site-tel .site-tel-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.site-location {
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+}
+
+.site-location .site-location-icon {
+    width: 20%;
+    float: left;
+}
+
+.site-location .site-location-content {
+    width: 80%;
+    float: left;
+}
+
+.site-location .site-location-content p {
     margin: 0;
     font-size: 14px;
 }
